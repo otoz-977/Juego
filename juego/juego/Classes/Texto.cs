@@ -9,7 +9,7 @@ using System.Reflection;
 
 namespace juego.Classes
 {
-    class Texto
+    class Texto 
     {
         string SCn;
         
@@ -32,7 +32,8 @@ namespace juego.Classes
             }
             else
             {
-                return "null";
+                return "";
+
             }
             
         }

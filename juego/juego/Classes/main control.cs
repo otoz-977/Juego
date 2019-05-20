@@ -11,10 +11,10 @@ namespace juego.Classes
         int S, C;
        
         //cuenta las escenas;
-        public main_control(int _S, int _C)
+        public main_control()
         {
-             S = _S;
-             C = _C;
+             S = 0;
+             C = 0;
 
         }
 
@@ -23,12 +23,22 @@ namespace juego.Classes
         public string main()
         {
            List<string> scene = new List<string>();
-           scene.Add("scenes_2_file");
            scene.Add("scenes_1_text");
+           scene.Add("scenes_2_file");
+           
             
 
             Texto text = new Texto(scene[S]);
-            return text.text(C);
+            string done =text.text(C);
+
+            if(done =="")
+            {
+                S++;
+                C = 0;
+            }
+
+            C++;
+            return done;
         }
 
     }

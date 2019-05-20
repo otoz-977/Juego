@@ -61,10 +61,23 @@ namespace juego.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to the air was filled with thick fog slowly replaced with dark smothering smog from the city
-        ///as the flying ship neared the dock, gears shifted rotating the thrusters and slowing the pace, the sound of a bustiling city replaced the wails of the waves
-        ///my box was placed in the dock, as two thugs cames and carried me to a wagon. driving slowly through a dark alley.
-        ///even thrugh my cage, i was choking on the air  of this disgusting city, with the ground covered in soot and sky chocked in smoke..
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap main_bg {
+            get {
+                object obj = ResourceManager.GetObject("main_bg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to El aire estaba llena de humo, es difficil respirar con tanta contaminacion, grandes nubles de ceniza y vapor cubrian al barco en su enteridad, llegando hasta la caja en la que me escondia
+        ///#
+        ///Pronto oi un silbato, por mientras que el gran barco volador empezo a decender. el llanto del oceano fue remplazado por la harmonia de la cuidad.
+        ///#
+        ///una vez en el puerto, dos rufianes levantaron mi escondite y se lo llevaron, evadiendo ala policia, pusieron mi caja en un caruage y empezaron a manejar.
+        ///#
+        ///Apesar de es [rest of string was truncated]&quot;;.
         /// </summary>
         public static string scenes_1_text {
             get {
@@ -73,21 +86,18 @@ namespace juego.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Es el año 2058, Tuviste una noche pesada como detective privado en Liverpool, Inglaterra.
+        ///   Looks up a localized string similar to ..................................
+        ///#
+        ///Es el año 2058, Tuviste una noche pesada como detective privado en Liverpool, Inglaterra.
         ///En eso tocan a tu puerta. 
         ///Al parecer alguien asesino a tu hermana en Londres esa misma noche. 
         ///Y aquí es donde empieza el juego.
         ///#
         ///Llegas al cuarto donde fue asesinada, es un cuarto chico, alfombra morada
         ///una mesita y la cama. Al fondo esta la puerta para ir al baño. Llega el jefe de policia.
-        ///que decides hacer:............
         ///#
-        ///1) irme de la habitacion
-        ///#
-        ///2) quedarme a platicar con el don
-        ///
-        ///
-        ///.
+        ///&quot;Cubre , las ventanas no querermos que vean esto&quot; le dice a un novato
+        ///que dec [rest of string was truncated]&quot;;.
         /// </summary>
         public static string scenes_2_file {
             get {

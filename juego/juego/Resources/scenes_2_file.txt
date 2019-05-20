@@ -1,3 +1,5 @@
+..................................
+#
 Es el año 2058, Tuviste una noche pesada como detective privado en Liverpool, Inglaterra.
 En eso tocan a tu puerta. 
 Al parecer alguien asesino a tu hermana en Londres esa misma noche. 
@@ -10,7 +12,6 @@ una mesita y la cama. Al fondo esta la puerta para ir al baño. Llega el jefe de 
 que decides hacer:............
 #
 1) irme de la habitacion
-#
-2) quedarme a platicar con el don
 
+2) quedarme a platicar con el don
 
