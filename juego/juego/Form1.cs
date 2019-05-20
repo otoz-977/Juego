@@ -47,6 +47,7 @@ namespace juego
                 panel1.Visible = true;
                 choice_one.Text = read.Ctext[0];
                 choice_two.Text = read.Ctext[1];
+                ///bro
 
             }
             
