@@ -121,5 +121,11 @@
   <ItemGroup>
     <None Include="Resources\steam punk city.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scenes_3_file.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scenes_4_text.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

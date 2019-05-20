@@ -72,12 +72,9 @@ namespace juego.Properties {
         
         /// <summary>
         ///   Looks up a localized string similar to El aire estaba llena de humo, es difficil respirar con tanta contaminacion, grandes nubles de ceniza y vapor cubrian al barco en su enteridad, llegando hasta la caja en la que me escondia
-        ///#
-        ///Pronto oi un silbato, por mientras que el gran barco volador empezo a decender. el llanto del oceano fue remplazado por la harmonia de la cuidad.
-        ///#
-        ///una vez en el puerto, dos rufianes levantaron mi escondite y se lo llevaron, evadiendo ala policia, pusieron mi caja en un caruage y empezaron a manejar.
-        ///#
-        ///Apesar de es [rest of string was truncated]&quot;;.
+        ///#Pronto oi un silbato, por mientras que el gran barco volador empezo a decender. el llanto del oceano fue remplazado por la harmonia de la cuidad.
+        ///#una vez en el puerto, dos rufianes levantaron mi escondite y se lo llevaron, evadiendo ala policia, pusieron mi caja en un caruage y empezaron a manejar.
+        ///#Apesar de estar en [rest of string was truncated]&quot;;.
         /// </summary>
         public static string scenes_1_text {
             get {
@@ -87,21 +84,53 @@ namespace juego.Properties {
         
         /// <summary>
         ///   Looks up a localized string similar to ..................................
-        ///#
-        ///Es el año 2058, Tuviste una noche pesada como detective privado en Liverpool, Inglaterra.
+        ///#Es el año 2058, Tuviste una noche pesada como detective privado en Liverpool, Inglaterra.
         ///En eso tocan a tu puerta. 
-        ///Al parecer alguien asesino a tu hermana en Londres esa misma noche. 
+        ///#Al parecer alguien asesino a tu hermana en Londres esa misma noche. 
         ///Y aquí es donde empieza el juego.
-        ///#
-        ///Llegas al cuarto donde fue asesinada, es un cuarto chico, alfombra morada
-        ///una mesita y la cama. Al fondo esta la puerta para ir al baño. Llega el jefe de policia.
-        ///#
-        ///&quot;Cubre , las ventanas no querermos que vean esto&quot; le dice a un novato
-        ///que dec [rest of string was truncated]&quot;;.
+        ///#Llegas al cuarto donde fue asesinada, es un cuarto chico, alfombra morada
+        ///una mesita y la cama. Al fondo esta la puerta para ir al baño.
+        ///#Es un cuarto elegante, alamenos para estar en una prision
+        ///#Nunca estuve cerca con mi hermana, Me fui de la h [rest of string was truncated]&quot;;.
         /// </summary>
         public static string scenes_2_file {
             get {
                 return ResourceManager.GetString("scenes_2_file", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sali de ese lugar en cuanto pude, tratando de conseguir aire fresca.
+        ///#busque en mis bolsillos y saque mi pipa de opio, un obseqio de my abuelo de las tierras lejanas de Hongkong
+        ///#ironica mente, el vapor de pieza es mucho mas limpia que el aire aqui en londres.
+        ///#inhale, mesmerizado por los encranes de plate en la pipa de marfil.
+        ///#Derepente Todo se volvio Negro, pense que me habia desmallado, hasta que senti el golpe en la nuca.
+        /// </summary>
+        public static string scenes_3_file {
+            get {
+                return ResourceManager.GetString("scenes_3_file", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Me acerce al &quot;don&quot;, esta tiezo
+        ///# &quot;DEjEme ver el cuerpo&quot;
+        ///#Don: 
+        ///&quot;Alex, tranquilizate&quot;
+        ///Se pone enfrente de mi, bloqueando la puerta.
+        ///#&quot;Por un demonio, Don, si no me dejas entrar ahi en los siguientes 10 segundos&quot;
+        ///Empeze a desenfundar mi arma.
+        ///#El simple mente se quedo quieto, sin decir una sola palabra
+        ///#Don:
+        ///&quot;Se que es difficil, pero necesitamos saber que es lo que tenemos en las manos&quot;
+        ///#&quot;Nunca habiamos visto un crimen asi, solo encontramos sus extremidades, el cuerpo no esta&quot;
+        ///#Suspiro
+        ///#Don:
+        ///&quot; ne [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string scenes_4_text {
+            get {
+                return ResourceManager.GetString("scenes_4_text", resourceCulture);
             }
         }
     }

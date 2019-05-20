@@ -1,17 +1,15 @@
 ..................................
-#
-Es el año 2058, Tuviste una noche pesada como detective privado en Liverpool, Inglaterra.
+#Es el año 2058, Tuviste una noche pesada como detective privado en Liverpool, Inglaterra.
 En eso tocan a tu puerta. 
-Al parecer alguien asesino a tu hermana en Londres esa misma noche. 
+#Al parecer alguien asesino a tu hermana en Londres esa misma noche. 
 Y aquí es donde empieza el juego.
-#
-Llegas al cuarto donde fue asesinada, es un cuarto chico, alfombra morada
-una mesita y la cama. Al fondo esta la puerta para ir al baño. Llega el jefe de policia.
-#
-"Cubre , las ventanas no querermos que vean esto" le dice a un novato
+#Llegas al cuarto donde fue asesinada, es un cuarto chico, alfombra morada
+una mesita y la cama. Al fondo esta la puerta para ir al baño.
+#Es un cuarto elegante, alamenos para estar en una prision
+#Nunca estuve cerca con mi hermana, Me fui de la hacienda en cuanto pude
+#Me converti en detective
+Llega el jefe de policia.
+#"Cubre , las ventanas no querermos que vean esto" le dice a un novato
 que decides hacer:............
-#
-1) irme de la habitacion
-
-2) quedarme a platicar con el don
+#@1) irme de la habitacion /2) quedarme a platicar con el don/ 2/ 3
 
